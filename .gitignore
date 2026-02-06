@@ -1,0 +1,18 @@
+# Ignore all top-level directories and everything inside them
+/*/
+
+# Ignore recursively everything inside any top-level directory
+/*/**
+
+# Keep repository root files so you can track files at the repo root
+!.gitignore
+!/README.md
+!/.gitattributes
+!/LICENSE
+!/package.json
+!/package-lock.json
+
+# Common OS and editor files
+desktop.ini
+Thumbs.db
+.DS_Store
